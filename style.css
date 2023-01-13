@@ -1,0 +1,272 @@
+*,
+html,
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Header */
+    .navbar{
+        z-index: 99999999;
+        background: #51495B;
+    }
+    .nav-link{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 24px;
+        line-height: 24px;
+        /* identical to box height, or 100% */
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .btn-navbar {
+        margin-left: 70px;
+        width: 100px;
+        height: 50px;
+        /* Primary/Primary */
+        background: radial-gradient(127.68% 423.02% at 31.82% -13.39%, #FF9B00 12.5%, #ED1C24 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 0px 15px 36px rgba(246, 87, 20, 0.3);
+        border-radius: 60px;
+        border: none;
+        color: #fff;
+        font-weight: 500;
+        font-size: 15px;
+
+    }
+/* End Header */
+
+/* Main */
+    /* hero */
+    #hero{
+        background: #51495B;
+        height: 700px;
+    }
+    .tagline-hero{
+        margin-top: 200px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        width: 400px;
+        line-height: 50px;
+        /* or 100% */
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+    }
+    .btn-hero{
+        width: 155px;
+        height: 72px;
+        /* Primary/Primary */
+        background: radial-gradient(127.68% 423.02% at 31.82% -13.39%, #FF9B00 12.5%, #ED1C24 100%) /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */;
+        box-shadow: 0px 15px 36px rgba(246, 87, 20, 0.3);
+        border-radius: 100px;
+        border: none;
+        margin-top: 20px;
+        margin-left: 100px;
+        color: #fff;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 20px;
+    }
+    .img-hiro{
+        width: 800px;
+        height: 600px;
+    }
+    /* end hero */
+
+    /* About Us */
+    #About-Us{
+        background: #686161;
+        height: 858px;
+    }
+    .tagline-aboutus{
+        margin-top: 130px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        /* or 94% */
+        align-items: center;
+        background: linear-gradient(180deg, #FF9B00 0%, #D11C24 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .konten-Aboutus{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 24px;
+        /* or 100% */
+        text-align: justify;
+        color: #FFFFFF;
+    }
+    .img-aboutus{
+        width: 400px;
+        height: 500px;
+    }
+    /* End About Us */
+
+    /* Device */
+    #Device{
+        height: 2000px;
+        background: #60497D;
+    }
+    .tagline-device{
+        margin-top: 150px;
+        margin-bottom: 50px;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 64px;
+        line-height: 60px;
+        /* or 94% */
+        background: linear-gradient(180deg, #FF9B00 0%, #D11C24 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+        /* Card ESP */
+        .ESP32{
+            background-color: #FF9B00;
+            padding: 0 10px 10px 10px;
+            border-radius: 50px;
+        }
+        .card-esp{
+            background: #D11C24;
+            border-radius: 50px;
+        }
+        .img-device{
+            margin-left: 50px;
+            width: 400px;
+            height: 350px;
+        }
+        .card-title{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 30px;
+            line-height: 60px;
+            /* identical to box height, or 150% */
+            display: flex;
+            align-items: center;
+            text-align: center;
+            color: #fff;
+        }
+        .card-text{
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 700;
+            font-size: 15px;
+            line-height: 20px;
+            /* or 100% */
+            display: flex;
+            align-items: center;
+            text-align: justify;
+            color: #fff;
+        }
+        /* END Card ESp */
+        /* Card DHT11 */
+        .DHT11{
+            background: #D11C24;
+            padding: 0 10px 10px 10px;
+            border-radius: 50px;
+        }
+        .card-dht{
+            background: #FF7B12;
+            border-radius: 50px;
+        }
+        /* End DHT11 */
+        /* Card LDR */
+        .LDR{
+            background: #2EC762;
+            padding: 0 10px 10px 10px;
+            border-radius: 50px;
+        }
+        .card-ldr{
+            background: #1A188B;
+            border-radius: 50px;
+        }
+        /* End LDR */
+        .Rangkaian{
+            background: #FF7B12;
+            padding: 0 10px 10px 10px;
+            border-radius: 50px;
+        }
+        .card-rangkaian{
+            background: none;
+            padding: 30px;
+            border-radius: 50px;
+            border: none;
+        }
+    /* end Device */
+
+    /* Features */
+    #features{
+        height: 500px;
+    }
+    .h1-features{
+        margin-top: 100px;
+        margin-bottom: 50px;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 50px;
+        line-height: 48px;
+        /* or 96% */
+        display: flex;
+        align-items: center;
+        text-align: center;
+        background: linear-gradient(180deg, #FF7B12 0%, #D11C24 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+    }
+    .features-text{
+        color: #FFFFFF;
+    }
+    /* End Features */
+/* End Main */
+
+/* Footer */
+    #footer{
+        height: 508px;
+        background: #060919;
+    }
+    .logo-footer{
+        margin-top: 100px;
+    }
+    .fotter-text{
+        margin-top: 135px;
+        display: flex;
+        list-style: none;
+    }
+    .fotter-text a {
+        text-decoration: none;
+        text-align: center;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 32px;
+        line-height: 28px;
+        /* identical to box height, or 88% */
+        color: #FFFFFF;
+        padding-left: 50px;
+    }
+    .garis{
+        margin-top: 100px;
+        color: #FFFFFF;
+        height: 100px;
+    }
+    .credit{
+        color: #FFFFFF;
+    }
+/* End Footer */
