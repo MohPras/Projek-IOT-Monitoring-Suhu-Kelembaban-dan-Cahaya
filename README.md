@@ -8,5 +8,7 @@ Berikut ini adalah foto alat monitoring suhu, Kelembaban dan Cahaya.
 
 Cara agar data bisa riltime ke website, Pertama saya menggunakan library HTTPClient di arduino uno lalu untuk pengiriman data dari ESP32 ke database saya menggunakan metode GET. Metode GET ini akan mengambil data-data yang ada di variabel yang kita definisakn tadi yaitu suhu, kelembaban dan ldr(cahaya) lalu data tersebut akan dikirim ke tabel database kita yaitu tb_sensor, Lalu dari tb_sensor data akan dipanggil untuk ditampilkan ke website menggunakan perintah $sql = mysqli_query($konek, 'select * from tb_sensor order by id desc'); selanjutnya data akan masuk ke nama id dari tempat data akan tertampil untuk kasus ini id yang saya gunakan ada #suhu, #kelembaban dan #ldr.
 
-Berikut ini adalah link Website yang bisa dikunjungi,(Catatan website ini hanya dapat dibuka pada laptop saja).
+Berikut ini adalah link Website bisa dikunjungi,(Gunakan Laptop).
 ( https://monsuhkelecah.000webhostapp.com/# )
+
+Berikut ini adalah link untuk design UX/UI Website ini (figma.com/@mohammadprastya)
